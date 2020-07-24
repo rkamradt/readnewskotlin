@@ -30,7 +30,7 @@ import org.springframework.data.annotation.Id
  * @author randalkamradt
  */
 class Inserts(
-    @Id val id: String? = null,
+    @Id val id: String,
     val status: String? = null,
     val totalResults: Int? = null,
     val articles: List<Articles>? = null)
